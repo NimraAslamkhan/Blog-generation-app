@@ -1,5 +1,6 @@
 import streamlit as st
 from langchain.prompts import PromptTemplate
+import langchain_community
 from langchain.llms import CTransformers
 
 ## Function To get response from LLAma 2 model

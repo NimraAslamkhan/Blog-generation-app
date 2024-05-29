@@ -1,0 +1,13 @@
+prefix=E:/blog genration/venv/Library
+exec_prefix=E:/blog genration/venv/Library
+libdir=E:/blog genration/venv/Library/lib
+sharedlibdir=E:/blog genration/venv/Library/lib
+includedir=E:/blog genration/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
